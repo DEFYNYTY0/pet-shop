@@ -1,0 +1,115 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap');
+*{
+font-family: 'Montserrat', sans-serif;
+margin: 0;
+    padding: 0;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.foto{
+    width: 568px;
+    height: 500px;
+    margin-left: 100px;
+    display: inline-block;
+    margin-bottom: 100px;
+transition: 2s;
+}
+
+.foto:hover{
+filter: drop-shadow(0px 15px 4px #adff00);
+width: 650px;
+height: 550px;
+
+}
+.link-header{
+color:#989d9c ;
+cursor: pointer;
+text-decoration: none;
+margin-right:24px ;
+font-size: 20px;
+
+}
+
+.button-header{
+background-color: #660000	;
+color: aliceblue;
+border-radius: 30px;
+font-size: 25px;
+box-shadow: 4px 2px gray;
+width: 162px;
+height: 41px;
+border: none;
+cursor: pointer;
+transition: 0.5s;
+margin-bottom: 70px;
+}
+
+
+.button-header:hover {
+    background-color: #cccccc;
+    border-radius: 2px;
+    
+}
+
+
+header{
+margin: 44px 0px 44px 76px;
+
+}
+h1 {
+font-weight: 900px;
+font-size: 60px;
+color: rgb(170, 166, 166);
+line-height: 122px;
+
+}
+h2{
+    font-weight: 500px;
+    font-size: 35px;
+    color: rgb(51, 50, 50);
+    line-height: 81px;
+    
+    
+
+}
+p {
+    font: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+width: 500px;
+margin-top: 30px;
+
+
+}
+
+    .botao-meio {
+        background: #adff00;
+        border-radius: 30px;
+        border: none;
+        width: 239px;
+        height: 64px;
+        cursor: pointer;
+        filter: drop-shadow( 0px 4px 7px #000000);
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 34px;
+        color: #000000;
+        margin: 100px;
+        transition: 2s;
+}
+.botao-meio:hover{
+background-color:black;
+color: white;
+filter: drop-shadow( 0px 4px 7px #ae00ff);
+
+}
+
+section {
+display: inline-block;
+
+
+
+}
